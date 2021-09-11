@@ -55,7 +55,23 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        if let id = segue.identifier, "DataSeg" == id {
+            if let controller = segue.destination as? DetailViewController {
+                if let news = jNewsData {
+                    if let indexPath = TableViewMain.indexPathForSelectedRow {
+                        if let rowNews = news[indexPath.row] as? Dictionary<String, Any> {
+                            if let urlToimg = rowNews["urlToImage"] as? String {
+                                controller.Image = urlToimg
+                            }
+                            
+                            if let desc = rowNews["description"] as? String {
+                                controller.Desc = desc
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
     
     override func viewDidLoad() {
@@ -67,7 +83,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         getNews()
     }
-
 
 }
 
