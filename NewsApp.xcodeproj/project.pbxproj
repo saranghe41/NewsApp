@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A2DB3A526ECA4820053BA93 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2DB3A426ECA4820053BA93 /* DetailViewController.swift */; };
+		5A2DB3A726ECB57E0053BA93 /* TableCellType1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2DB3A626ECB57E0053BA93 /* TableCellType1.swift */; };
 		5AB27E4726EC9CBB00336297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB27E4626EC9CBB00336297 /* AppDelegate.swift */; };
 		5AB27E4926EC9CBB00336297 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB27E4826EC9CBB00336297 /* SceneDelegate.swift */; };
 		5AB27E4B26EC9CBB00336297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB27E4A26EC9CBB00336297 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A2DB3A426ECA4820053BA93 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5A2DB3A626ECB57E0053BA93 /* TableCellType1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellType1.swift; sourceTree = "<group>"; };
 		5AB27E4326EC9CBB00336297 /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB27E4626EC9CBB00336297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AB27E4826EC9CBB00336297 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				5AB27E5426EC9CBC00336297 /* LaunchScreen.storyboard */,
 				5AB27E5726EC9CBC00336297 /* Info.plist */,
 				5AB27E4F26EC9CBB00336297 /* NewsApp.xcdatamodeld */,
+				5A2DB3A426ECA4820053BA93 /* DetailViewController.swift */,
+				5A2DB3A626ECB57E0053BA93 /* TableCellType1.swift */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -142,6 +148,8 @@
 			files = (
 				5AB27E4B26EC9CBB00336297 /* ViewController.swift in Sources */,
 				5AB27E4726EC9CBB00336297 /* AppDelegate.swift in Sources */,
+				5A2DB3A726ECB57E0053BA93 /* TableCellType1.swift in Sources */,
+				5A2DB3A526ECA4820053BA93 /* DetailViewController.swift in Sources */,
 				5AB27E5126EC9CBB00336297 /* NewsApp.xcdatamodeld in Sources */,
 				5AB27E4926EC9CBB00336297 /* SceneDelegate.swift in Sources */,
 			);
